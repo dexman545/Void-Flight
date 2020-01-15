@@ -1,11 +1,12 @@
 {
   "required": true,
-  "package": "net.fabricmc.example.mixin",
+  "package": "dex.voidflight.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "BlockStateMixin"
   ],
-  "client": [
-    "ExampleMixin"
+  "server": [
+    "BlockStateMixin"
   ],
   "injectors": {
     "defaultRequire": 1
